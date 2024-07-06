@@ -16,6 +16,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_X657C.mk
+     $(LOCAL_DIR)/twrp_X657C.mk
 
-COMMON_LUNCH_CHOICES := omni_X657C-eng
+COMMON_LUNCH_CHOICES := twrp_X657C-eng

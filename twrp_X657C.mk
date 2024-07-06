@@ -19,12 +19,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X657C
-PRODUCT_NAME := omni_X657C
+PRODUCT_NAME := twrp_X657C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Smart 5
 PRODUCT_MANUFACTURER := infinix
